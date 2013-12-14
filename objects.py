@@ -34,4 +34,3 @@ class Room(object):
     def event(self, event):
         for i in [obj for obj in self.objects if hasattr(obj, "handle_event")]:
             obj.handle_event(event)
-    
