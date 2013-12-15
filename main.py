@@ -38,12 +38,15 @@ musicstotest=[("Title", "music/Titles/Title.ogg"), ("Credits", "music/Titles/Cre
               ("The Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"), ("Honeyhive Infested", "music/Areas/BigBadBugaboom.ogg"),
               ("Big Bad Bugaboom", "music/Bosses/BossClassicSMG.ogg"),
               ("Bowser's Airship", "music/Areas/AirshipBGM.ogg"),
-              ("Bowser 1", "music/Bosses/Bowser/BowserBattleNSMBW.ogg"), ("Sky Station", "music/Areas/SkyStation.ogg"),
+              ("Bowser 1", "music/Bosses/Bowser/BowserBattleNSMBW.ogg"), ("World 2 Map", "music/HomeBase/StarshipMario1.ogg"),
+              ("Sky Station", "music/Areas/SkyStation.ogg"),
+              ("Switch Swap Galaxy", "music/Areas/AthleticMystery.ogg"),
               ("Peewee Piranha", "music/Bosses/BossTheme1SMG2.ogg"),
               ("Bullet Barrage Galaxy", "music/Areas/SpaceStation.ogg"), ("Battling the Battlerock", "music/Bosses/BossRobot.ogg"),
               ("Freezy Frame Galaxy", "music/Areas/IceCave.ogg"),
               ("Bowser Jr's Heavy Metal Reactor", "music/Bosses/BossHeavyMetal.ogg"),
-              ("Topmaniac", "music/Bosses/BossHeavyMetalSMG2.ogg")]
+              ("Topmaniac", "music/Bosses/BossHeavyMetalSMG2.ogg"),
+              ("World 3 Map", "music/HomeBase/SnowMap.ogg"), ("Snowman's Land", "music/Areas/SnowMountain.ogg")]
 run=1
 pygame.display.set_caption("Super Mario Bros. Galaxy")
 q=1
