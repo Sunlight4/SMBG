@@ -49,7 +49,7 @@ musicstotest=[("Title", "music/Titles/Title.ogg"), ("Credits", "music/Titles/Cre
               ("World 3 Map", "music/HomeBase/SnowMap.ogg"), ("Snowman's Land", "music/Areas/SnowMountain.ogg")]
 run=1
 pygame.display.set_caption("Super Mario Bros. Galaxy")
-q=1
+q=0
 blit(titlescreen, [0,0])
 blit(rosalina, [172, 357])
 blit(bowser, [420, 300])
@@ -58,8 +58,29 @@ blit(luigi, [100, 376])
 creditlist=["Super Mario Bros. Galaxy", "Created by Ian Huang and Ethan Saff",
             "Concept Development by creators and Isaac Saff", "Special Mention: David Saff",
             "Testing by all other people and Asher Saff.", "Credits to Nintendo",
-            "Watch out for Bowser :-)",
-            "Thanks everyone for playing!", "and have a nice day!"]
+            "Also, watch out for Bowser :D",
+            "Thanks for playing!"]
+
+def starshipmario():
+    run = 1
+
+    font = pygame.font.Font("Delfino.ttf",30)
+    welcome = font.render("Welcome to Starship Mario!",0,[0,0,0])
+    screen.blit(welcome,[50,50])
+
+    music.load("music/Areas/home.mp3")
+    music.set_volume(1)
+    music.play(-1)
+    bg=load("bg/Aurora_Night_Sky.png")
+    blit(bg, [0,0])
+    screen.blit(welcome,[50,50])
+    pygame.display.flip()            
+    
+    while run:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return 'q'
+        
 def music_test():
     font=pygame.font.SysFont(None, 36)
     bg=load("bg/Aurora_Night_Sky.png")
@@ -183,7 +204,13 @@ while run:
         elif event.type==pygame.KEYDOWN and event.key==pygame.K_m:
             music_test()
 
-if q:pygame.quit()
+if q:
+    pygame.quit()
+else:
+    screen.fill([255,255,255])
+
+    if starshipmario() == 'q':
+        pygame.quit()
 
     
     
