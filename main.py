@@ -30,27 +30,14 @@ toad=load("images/ToadNSMBW.png")
 goomboss=load("images/Goomboss.png")
 images=[mario, luigi, rosalina, bowser, starbunny, topmaniac, fireflower,
         firemario, powerstar, kamella, kamek, peach, toad, goomboss]
-musicstotest=[("Title", "music/Titles/Title.ogg"), ("Credits", "music/Titles/Credits.ogg"), ("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
-              ("World 1 Map", "music/HomeBase/GrassMap.ogg"),
-              ("Goomba Garden", "music/Areas/GrassBGM.ogg"),
-              ("Goomboss", "music/Bosses/BossNSMBWTower.ogg"),
-              ("Planet Plains", "music/Areas/GoodEggGalaxy.ogg"),  ("Dino Piranha", "music/Bosses/MiniBossSMG.ogg"),
-              ("Bobomb Battlefield", "music/Areas/BobombBattlefield.ogg"), ("King Bob-omb", "music/Bosses/BossClassicSM64.ogg"),
-              ("The Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"), ("Honeyhive Infested", "music/Areas/BigBadBugaboom.ogg"),
-              ("Big Bad Bugaboom", "music/Bosses/BossClassicSMG.ogg"),
-              ("Bowser's Airship", "music/Areas/AirshipBGM.ogg"),
-              ("Bowser 1", "music/Bosses/Bowser/BowserBattleNSMBW.ogg"), ("Starship Mario 1", "music/HomeBase/StarshipMario1.ogg"),
-              ("World 2 Map", "music/HomeBase/World2.ogg"),
-              ("Sky Station", "music/Areas/SkyStation.ogg"),
-              ("Switch Swap Galaxy", "music/Areas/AthleticMystery.ogg"),
-              ("Peewee Piranha", "music/Bosses/BossTheme1SMG2.ogg"),
-              ("Bullet Barrage Galaxy", "music/Areas/SpaceStation.ogg"), ("Battling the Battlerock", "music/Bosses/BossRobot.ogg"),
-              ("Freezy Frame Galaxy", "music/Areas/IceCave.ogg"),
-              ("Bowser Jr's Heavy Metal Reactor", "music/Bosses/BossHeavyMetal.ogg"),
-              ("Topmaniac", "music/Bosses/BossHeavyMetalSMG2.ogg"),
-              ("World 3 Map", "music/HomeBase/SnowMap.ogg"), ("Snowman's Land", "music/Areas/SnowMountain.ogg"),
-              ("Bowser Jr's Dire Docks", "music/Areas/BuoyBaseGalaxy.ogg"), ("Gooper Blooper", "music/Bosses/BossGhost.ogg"),
-              ("Mario Takes Flight", "music/Items/FlyingMario.ogg")]
+musicstotest=[("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
+              ("World 1 Map", "music/HomeBase/GrassMap.ogg"), ("Goomba Garden", "music/Areas/GrassBGM.ogg"),
+              ("Goomboss", "music/Bosses/MiniBossSMGRemix.ogg"), ("Planet Plains", "music/Areas/GoodEggGalaxy.ogg"),
+              ("Dino Piranha", "music/Bosses/MiniBossSMG.ogg"), ("Koopa Cape", "music/Areas/BeachOrchestra.ogg"),
+              ("Mr.Pokey", "music/Bosses/BossClassicSMG.ogg"), ("Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"),
+              ("Big Bad Bugaboom", "music/Areas/BigBadBugaboom.ogg"), ("Bowser's Airship","music/Areas/AirshipBGM.ogg"),
+              ("Bowser #1", "music/Bosses/Bowser/BowserBattleNSMBW.ogg"), ("To Starship Mario", "music/HomeBase/StarshipMario1.ogg"),
+              ("World 2 Map", "music/HomeBase/World2.ogg")]
 run=1
 
 pygame.display.set_caption("Super Mario Bros. Galaxy")
