@@ -33,8 +33,8 @@ images=[mario, luigi, rosalina, bowser, starbunny, topmaniac, fireflower,
 musicstotest=[("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
               ("World 1 Map", "music/HomeBase/GrassMap.ogg"), ("Goomba Garden", "music/Areas/GrassBGM.ogg"),
               ("Goomboss", "music/Bosses/MiniBossSMGRemix.ogg"), ("Planet Plains", "music/Areas/GoodEggGalaxy.ogg"),
-              ("Dino Piranha", "music/Bosses/MiniBossSMG.ogg"), ("Koopa Cape", "music/Areas/BeachOrchestra.ogg"),
-              ("Mr.Pokey", "music/Bosses/BossClassicSMG.ogg"), ("Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"),
+              ("Dino Piranha", "music/Bosses/MiniBossSMG.ogg"), ("Bobomb Battlefield", "music/Areas/BobombBattlefield.ogg"),
+              ("Big Bob-omb", "music/Bosses/BossClassicSMG.ogg"), ("Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"),
               ("Big Bad Bugaboom", "music/Areas/BigBadBugaboom.ogg"), ("Bowser's Airship","music/Areas/AirshipBGM.ogg"),
               ("Bowser #1", "music/Bosses/Bowser/BowserBattleNSMBW.ogg"), ("To Starship Mario", "music/HomeBase/StarshipMario1.ogg"),
               ("World 2 Map", "music/HomeBase/World2.ogg")]
@@ -51,6 +51,7 @@ creditlist=["Super Mario Bros. Galaxy", "Created by Ian Huang and Ethan Saff",
             "Concept Development by creators and Isaac Saff", "Special Mention: David Saff",
             "Testing by all other people and Asher Saff.", "Credits to Nintendo",
             "Also, watch out for Bowser :D",
+            "Credits to http://www.spriters-resource.com/ for some sprites",
             "Thanks for playing!"]
 
 def starshipmario():
