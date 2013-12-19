@@ -31,13 +31,14 @@ goomboss=load("images/Goomboss.png")
 images=[mario, luigi, rosalina, bowser, starbunny, topmaniac, fireflower,
         firemario, powerstar, kamella, kamek, peach, toad, goomboss]
 musicstotest=[("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
-              ("World 1 Map", "music/HomeBase/GrassMap.ogg"), ("Goomba Garden", "music/Areas/GrassBGM.ogg"),
+              ("World 1:Here We Go!", "music/HomeBase/GrassMap.ogg"), ("Goomba Garden", "music/Areas/GrassBGM.ogg"),
               ("Goomboss", "music/Bosses/MiniBossSMGRemix.ogg"), ("Planet Plains", "music/Areas/GoodEggGalaxy.ogg"),
               ("Dino Piranha", "music/Bosses/MiniBossSMG.ogg"), ("Bobomb Battlefield", "music/Areas/BobombBattlefield.ogg"),
               ("Big Bob-omb", "music/Bosses/BossClassicSMG.ogg"), ("Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"),
               ("Big Bad Bugaboom", "music/Areas/BigBadBugaboom.ogg"), ("Bowser's Airship","music/Areas/AirshipBGM.ogg"),
               ("Bowser #1", "music/Bosses/Bowser/BowserBattleNSMBW.ogg"), ("To Starship Mario", "music/HomeBase/StarshipMario1.ogg"),
-              ("World 2 Map", "music/HomeBase/World2.ogg")]
+              ("World 2:The Great Space Journey Begins", "music/HomeBase/World2.ogg"), ("Sky Station", "music/Areas/SkyStation.ogg"),
+              ("Peewee Piranha", "music/Bosses/BossTheme1SMG2.ogg"), ("S]
 run=1
 
 pygame.display.set_caption("Super Mario Bros. Galaxy")
