@@ -51,6 +51,8 @@ blit(luigi, [100, 376])
 creditlist=["Super Mario Bros. Galaxy", "Created by Ian Huang and Ethan Saff",
             "Concept Development by creators and Isaac Saff", "Special Mention: David Saff",
             "Testing by all other people and Asher Saff.", "Credits to Nintendo",
+            "Music by mariomahem.com","nindendo3dscomunity.com","fantendo.com",
+            "wikipedia.com","Please add more, Ethan! :D",
             "Also, watch out for Bowser :D",
             "Credits to http://www.spriters-resource.com/ for some sprites",
             "Thanks for playing!"]

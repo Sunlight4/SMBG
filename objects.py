@@ -8,7 +8,8 @@ class GameObject(pygame.sprite.Sprite):
         screen.blit(self.image, self.pos)
     def get_rect(self):
         return self.image.get_rect(topleft=self.pos)
-    def update(self, room):pass
+    def update(self, room):
+        screen.blit(self.image, self.pos)
 class ArrowSign(GameObject):
     def __init__(self, *args):
         super(ArrowSign, self).__init__("ArrowSign.png", args)
