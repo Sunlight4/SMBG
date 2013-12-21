@@ -31,7 +31,7 @@ goomboss=load("images/Goomboss.png")
 images=[mario, luigi, rosalina, bowser, starbunny, topmaniac, fireflower,
         firemario, powerstar, kamella, kamek, peach, toad, goomboss]
 musicstotest=[("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
-              ("World 1:Here We Go!", "music/HomeBase/GrassMap.ogg"), ("Goomba Garden", "music/Areas/GrassBGM.ogg"),
+              ("World 1:Here We Go!", "music/HomeBase/GrassMap.ogg"), ("Goomba Garden", "music/Areas/BiancoHills.ogg"),
               ("Mystery Box", "music/Areas/AthleticMystery.ogg"),
               ("Goomboss", "music/Bosses/MiniBossSMGRemix.ogg"), ("Planet Plains", "music/Areas/GoodEggGalaxy.ogg"),
               ("Dino Piranha", "music/Bosses/MiniBossSMG.ogg"), ("Bobomb Battlefield", "music/Areas/BobombBattlefield.ogg"),
