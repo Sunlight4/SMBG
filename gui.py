@@ -1,13 +1,13 @@
 import pygame
 
-def button(text,size,posi,color,font=None,bg=[255,255,255],fsize=50,surf):
+def button(surf,text,size,posi,color,font=None,bg=[255,255,255],fsize=50):
     f = pygame.font.Font(font,fsize)
     txt = f.render(text,color)
     surf.blit(txt,posi)
     pygame.display.flip()
     
     for event in pygame.event.get():
-        elif event.type == pygame.MOUSEBUTTONDOWN:
+        if event.type == pygame.MOUSEBUTTONDOWN:
             pos = pygame.mouse.get_pos()
 
             if pos[0] > posi[0]:
