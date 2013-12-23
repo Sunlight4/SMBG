@@ -28,18 +28,33 @@ kamek=load("images/KamekBroomstick.png")
 peach=load("images/Princess_Peach_Model_NSMBW.png")
 toad=load("images/ToadNSMBW.png")
 goomboss=load("images/Goomboss.png")
+thank_you=mixer.Sound("sounds/thank_you.wav")
+power_star=mixer.Sound("sounds/powerstar_mario.wav")
 images=[mario, luigi, rosalina, bowser, starbunny, topmaniac, fireflower,
         firemario, powerstar, kamella, kamek, peach, toad, goomboss]
 musicstotest=[("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
               ("World 1:Here We Go!", "music/HomeBase/GrassMap.ogg"), ("Goomba Garden", "music/Areas/BiancoHills.ogg"),
               ("Mystery Box", "music/Areas/AthleticMystery.ogg"),
-              ("Goomboss", "music/Bosses/MiniBossSMGRemix.ogg"), ("Planet Plains", "music/Areas/GoodEggGalaxy.ogg"),
+              ("Goomboss in The Garden", "music/Bosses/MiniBossSMGRemix.ogg"), ("Planet Plains", "music/Areas/GoodEggGalaxy.ogg"),
               ("Dino Piranha", "music/Bosses/MiniBossSMG.ogg"), ("Bobomb Battlefield", "music/Areas/BobombBattlefield.ogg"),
-              ("Big Bob-omb", "music/Bosses/BossClassicSMG.ogg"), ("Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"),
+              ("King Bob-omb on the Mountain", "music/Bosses/BossClassicSMG.ogg"), ("Queen Bee's Honeyhive", "music/Areas/Honeyhive.ogg"),
               ("Big Bad Bugaboom", "music/Areas/BigBadBugaboom.ogg"), ("Bowser's Airship","music/Areas/AirshipBGM.ogg"),
               ("Bowser #1", "music/Bosses/Bowser/BowserBattleNSMBW.ogg"), ("To Starship Mario", "music/HomeBase/StarshipMario1.ogg"),
               ("World 2:The Great Space Journey Begins", "music/HomeBase/World2.ogg"), ("Sky Station", "music/Areas/SkyStation.ogg"),
-              ("Peewee Piranha", "music/Bosses/BossTheme1SMG2.ogg"), ("Space Junk Road", "music/Areas/DeepSpace.ogg")]
+              ("Peewee Piranha", "music/Bosses/BossTheme1SMG2.ogg"), ("Space Junk Road", "music/Areas/DeepSpace.ogg"),
+              ("Cosmic Mario Cataclysm", "music/Bosses/BossCosmic.ogg"), ("Bullet Barrage Galaxy", "music/Areas/SpaceStation.ogg"),
+              ("Megaleg's Moon", "music/Bosses/BossRobot.ogg"), ("Freezeflame:Ice Maze", "music/Areas/IceCave.ogg"),
+              ("King Brrr's Frozen Iceberg", "music/Bosses/BossIce.ogg"), ("Freezeflame:Lava Mountain", "music/Areas/BlisteringCore.ogg"),
+              ("Bowser Jr.'s Heavy-Metal Reactor", "music/Bosses/BossHeavyMetal.ogg"),
+              ("Topmaniac and the Topman Tribe", "music/Bosses/BossHeavyMetalSMG2.ogg"), ("World 3:Return of the Mushroom Kingdom",
+                                                                                          "music/HomeBase/SnowMap.ogg"),
+              ("Layer-Cake Desert", "music/Areas/DesertBGM.ogg"), ("Hazy Maze Cave", "music/Areas/UndergroundSM64.ogg"),
+              ("Boo's Mansion", "music/Areas/GhostHouseNSMBW.ogg"), ("King Boo's Haunt", "music/Bosses/BossClassicSMS.ogg"),
+              ("Bully Arena", "music/Areas/AthleticHeavyMetal.ogg"), ("Big Bully's Tower", "music/Bosses/BossClassicSM64.ogg"),
+              ("Bowser Jr.'s Dire Dire Docks", "music/Areas/BuoyBaseGalaxy.ogg"), ("Gooper Blooper", "music/Bosses/BossTheme2SMG2.ogg"),
+              ("World 4:Elemental Roulette", "music/HomeBase/LubbasStory.ogg"), ("Gusty Garden Winds", "music/Areas/GustyGardenGalaxy.ogg"),
+              ("Yoshi Cape Galaxy", "music/Areas/TropicalParadise.ogg"), ("Sea Ring Galaxy", "music/Areas/BeachGrass.ogg"),
+              ("Going After Guppy", "music/Areas/AquaticRace.ogg"), ("Cyclone Stone", "music/Areas/AthleticCosmos.ogg")]
 run=1
 
 pygame.display.set_caption("Super Mario Bros. Galaxy")
@@ -112,6 +127,7 @@ def music_test():
                         music.play(-1)
                         return
         i+=1
+
     music.fadeout(1000)
     music.load("music/Titles/Title.ogg")
     music.set_volume(1)
@@ -127,6 +143,7 @@ def credits_text():
     music.load("music/Titles/Credits.ogg")
     music.set_volume(1)
     music.play(-1)
+    
     bg=load("bg/Aurora_Night_Sky.png")
     for i in creditlist:
         image=random.choice(images)
@@ -169,7 +186,9 @@ def credits_text():
         
         
     music.fadeout(1000)
+    power_star.play()
     music.load("music/Titles/Title.ogg")
+    
     music.set_volume(1)
     music.play(-1)
 
