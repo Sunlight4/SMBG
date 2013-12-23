@@ -54,7 +54,7 @@ musicstotest=[("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
               ("Bowser Jr.'s Dire Dire Docks", "music/Areas/BuoyBaseGalaxy.ogg"), ("Gooper Blooper", "music/Bosses/BossTheme2SMG2.ogg"),
               ("World 4:Elemental Roulette", "music/HomeBase/LubbasStory.ogg"), ("Gusty Garden Winds", "music/Areas/GustyGardenGalaxy.ogg"),
               ("Yoshi Cape Galaxy", "music/Areas/TropicalParadise.ogg"), ("Sea Ring Galaxy", "music/Areas/BeachGrass.ogg"),
-              ("Going After Guppy", "music/Areas/AquaticRace.ogg"), ("Cyclone Stone", "music/Areas/AthleticCosmos.ogg")]
+              ("Going After Guppy", "music/Areas/AquaticRace.ogg"), ("Cyclone Stone Galaxy", "music/Areas/AthleticCosmos.ogg")]
 run=1
 
 pygame.display.set_caption("Super Mario Bros. Galaxy")
