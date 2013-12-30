@@ -28,7 +28,7 @@ kamek=load("images/KamekBroomstick.png")
 peach=load("images/Princess_Peach_Model_NSMBW.png")
 toad=load("images/ToadNSMBW.png")
 goomboss=load("images/Goomboss.png")
-thank_you=mixer.Sound("sounds/thank_you.wav")
+thank_you=mixer.Sound("sounds/its_a_me_mario.wav")
 power_star=mixer.Sound("sounds/powerstar_mario.wav")
 images=[mario, luigi, rosalina, bowser, starbunny, topmaniac, fireflower,
         firemario, powerstar, kamella, kamek, peach, toad, goomboss]
@@ -50,10 +50,12 @@ musicstotest=[("Peach Castle", "music/HomeBase/PeachCastle.ogg"),
                                                                                           "music/HomeBase/SnowMap.ogg"),
               ("Layer-Cake Desert", "music/Areas/DesertBGM.ogg"), ("Hazy Maze Cave", "music/Areas/UndergroundSM64.ogg"),
               ("Boo's Mansion", "music/Areas/GhostHouseNSMBW.ogg"), ("King Boo's Haunt", "music/Bosses/BossClassicSMS.ogg"),
+              ("Racing the Spooky Speedster", "music/Areas/BooRace.ogg"),
               ("Bully Arena", "music/Areas/AthleticHeavyMetal.ogg"), ("Big Bully's Tower", "music/Bosses/BossClassicSM64.ogg"),
-              ("Bowser Jr.'s Dire Dire Docks", "music/Areas/BuoyBaseGalaxy.ogg"), ("Gooper Blooper", "music/Bosses/BossTheme2SMG2.ogg"),
+              ("Bowser Jr.'s Dire Dire Docks", "music/Areas/BuoyBaseGalaxy.ogg"), ("Gooper Blooper", "music/Bosses/BossTheme3SMG2.ogg"),
               ("World 4:Elemental Roulette", "music/HomeBase/LubbasStory.ogg"), ("Gusty Garden Winds", "music/Areas/GustyGardenGalaxy.ogg"),
-              ("Yoshi Cape Galaxy", "music/Areas/TropicalParadise.ogg"), ("Sea Ring Galaxy", "music/Areas/BeachGrass.ogg"),
+              ("Yoshi Cape Galaxy", "music/Areas/TropicalParadise.ogg"), ("Giga Lakitu", "music/Bosses/BossTheme2SMG2.ogg"),
+              ("Sea Ring Galaxy", "music/Areas/BeachGrass.ogg"),
               ("Going After Guppy", "music/Areas/AquaticRace.ogg"), ("Cyclone Stone Galaxy", "music/Areas/AthleticCosmos.ogg")]
 run=1
 
@@ -68,9 +70,9 @@ creditlist=["Super Mario Bros. Galaxy", "Created by Ian Huang and Ethan Saff",
             "Concept Development by creators and Isaac Saff", "Special Mention: David Saff",
             "Testing by all other people and Asher Saff.", "Credits to Nintendo",
             "Music and sprites by mariomayhem.com","nindendo3dscomunity.com","fantendo.com",
-            "wikipedia.com","Please add more, Ethan! :D",
+            "mariowiki.com",
+            "spriters-resource.com",
             "Also, watch out for Bowser :D",
-            "Credits to http://www.spriters-resource.com/ for some sprites",
             "Thanks for playing!"]
 
 def starshipmario():
@@ -194,6 +196,7 @@ def credits_text():
 
 for i in range(0, 640, grass.get_rect().width):
     blit(grass, [i, 429])
+
 
 while run:
     blit(titlescreen, [0,0])

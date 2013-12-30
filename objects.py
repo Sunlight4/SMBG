@@ -5,12 +5,14 @@ class Object(pygame.sprite.Sprite):
         self.image = pygame.image.load(img)
         self.pos = pos
     def render(self,surf):
-<<<<<<< HEAD
-<<<<<<< HEAD
         surf.blit(self.img,self.pos)
-=======
-=======
->>>>>>> df0745527897a3018769313ce8b25e1e3c374dc9
-        surf.blit(self.image,self.pos)
-    
->>>>>>> df0745527897a3018769313ce8b25e1e3c374dc9
+    def update(self, room):pass
+class Goomba(Object):
+    def __init__(self, x, y):
+        pos=[x,y]
+        super(Goomba, self).__init__(pos, "images/Goomba.png")
+    def update(self, room):
+        pass # this is gonna get better
+
+        
+
